@@ -17,7 +17,7 @@
 
     <LinearLayout
         android:id="@+id/lay"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="4dp"
         android:orientation="vertical"
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
@@ -68,6 +68,7 @@
             <EditText
                 android:layout_marginBottom="10dp"
                 android:id="@+id/phone"
+                android:maxLength="12"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edit_text_design"
@@ -94,7 +95,7 @@
                 android:autofillHints="emailAddress" />
 
             <EditText
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="24dp"
                 android:id="@+id/pass"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -123,6 +124,7 @@
             android:layout_height="0dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
+            android:layout_marginTop="24dp"
             android:layout_weight="1"
             android:background="@drawable/btn_light_curve"
             android:padding="5dp"

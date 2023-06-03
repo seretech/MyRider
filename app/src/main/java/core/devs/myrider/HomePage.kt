@@ -236,7 +236,7 @@ class HomePage : AppCompatActivity() {
             override fun onTick(c: Long) {
                 val a = c / 1000
                 diTxt.text = buildString {
-                    append("Arriving In ")
+                    append("Arriving In Approximately ")
                     append(a.toString())
                     append(" Seconds ")
                 }

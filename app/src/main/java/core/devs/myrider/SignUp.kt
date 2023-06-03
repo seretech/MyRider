@@ -160,13 +160,13 @@ class SignUp : AppCompatActivity() {
                     )
 
                     val editor: SharedPreferences.Editor =  sharedPreferences.edit()
-                    editor.putInt("signedIn",1)
+                    editor.putInt("signedIn",0)
                     editor.apply()
                     Toast.makeText(applicationContext, "Account Created Successfully Please Sign In", Toast.LENGTH_LONG).show()
                     startActivity(
                         Intent(
                             this@SignUp,
-                            HomePage::class.java
+                            SignIn::class.java
                         )
                     )
                     restoreDefault()
