@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Rider</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password? Click Here</string>
+    <string name="f_name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="already_acct">Already have an Account? Login Here</string>
+    <string name="request_ride">Request A Ride</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="request_a">Request A Ride Now</string>
+    <string name="frm">From</string>
+    <string name="to">To</string>
+    <string name="no">No</string>
+    <string name="yes_exit">Yes, Exit</string>
+    <string name="sure_to_exit">Sure To Exit</string>
+    <string name="confirm_ride">Confirm Ride Booking</string>
+    <string name="yes">Yes</string>
+    <string name="drv">Ride Details</string>
+    <string name="ride_here">Your Ride is Here</string>
+    <string name="sel_ride">Select A Ride</string>
+    <string name="cancel_ride">Cancel Ride</string>
+    <string name="drp">Drop-Off</string>
+    <string name="pck">Pick-Up</string>
+</resources>
