@@ -84,6 +84,7 @@ class HomePage : AppCompatActivity() {
         js = sharedPreferences.getString("profile", "")?.let { JSONObject(it) }
 
         welcome.text = buildString {
+            append("Welcome Back\n")
             append(js!!.getJSONObject("data")["lName"].toString())
             append(" ")
             append(js!!.getJSONObject("data")["fName"].toString())
